@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{%block title%} Acerca de {%endblock%}
+
+{%block image%} {%load static%} {%static 'img/about-bg.jpg'%}  {%endblock%}
+
+{%block portada%}
+<h1> Acerca de mi </h1>
+{%endblock%}
+
+{%block content%}
+<div class="row">   
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+      <img class="img-fluid avatar" src="{%static 'img/img001.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading">Eduardo Rosas</h2>   
+      <p>.</p>
+      <p>.</p>
+    </div>
+  </div>  
+{%endblock%}
